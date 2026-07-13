@@ -949,27 +949,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J2"
+				(at 2.54 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+				(at 2.54 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Jayse_Footprints:CONN_S3B-ZR_JST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10758,7 +10760,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b4b8a90-d0be-49b3-a7b6-b3a559087776")
 		(property "Reference" "#PWR015"
 			(at 201.93 25.4 0)
@@ -10772,7 +10773,7 @@
 			)
 		)
 		(property "Value" "+5VCAN"
-			(at 204.47 20.3199 0)
+			(at 202.184 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11480,6 +11481,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 247.65 38.1 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11487,10 +11489,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69756d11-3c25-4ea8-85f7-8f27e8ee38df")
 		(property "Reference" "J2"
-			(at 250.19 36.8299 0)
+			(at 250.19 39.3701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11501,7 +11502,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 250.19 39.3699 0)
+			(at 250.19 36.8301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
